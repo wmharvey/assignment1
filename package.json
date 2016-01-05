@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "gulp test"
+    "test": "gulp test",
+    "lint": "gulp lint"
   },
   "author": "Whitney",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
     "mocha": "^2.3.4",
     "nodemon": "^1.8.1"
   }
