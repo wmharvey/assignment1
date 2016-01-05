@@ -1,0 +1,13 @@
+{
+  "undef": true,            // true: Require all non-global variables to be declared (prevents global leaks)
+  "globals": {
+    "require"     : false,
+    "exports"     : false,
+    "module"      : false,
+    "describe"    : false,
+    "process"     : false,
+    "console"     : false,
+    "it"          : false
+  },
+  "esnext": true
+}
